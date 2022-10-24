@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 2</title>
+    <style>
+        .tur {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            max-width: 100rem;
+            grid-auto-rows: minmax(12, auto);
+            gap: 1rem;
+        }
+        .tur a {
+            background-color: aqua;
+            display: flex;
+            align-items: flex-end;
+            padding-left: 1rem;
+            padding-bottom: 1rem;
+            position: relative;
+            font-family: sans-serif;
+
+        }
+
+        .tur h1{
+            position: absolute;
+            margin: 0;
+            background-color: lightblue;
+
+        }
+        .tur img{
+           
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .to-kolonner {
+            grid-column: span 6;
+        }
+        .åtte-rader {
+            grid-row: span 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vidunderturer</h1>
+    <section class="tur">
+      <a href="friluftsliv1.html" class="to-kolonner åtte-rader"><img src="friluftsliv_1.jpg" alt=""><h1>Steintur</h1><p>Denne turen skal du gå opp et fjell og se på utsikten fra en stein</p></a>
+      <a href="friluftsliv2.html" class="to-kolonner åtte-rader"><img src="friluftsliv_2.jpg" alt=""><h1>Daltur</h1><p>På denne turen skal du besøke en dal</p></a>
+      <a href="friluftsliv3.html" class="to-kolonner åtte-rader"><img src="friluftsliv_3.jpg" alt=""><h1>Fosstur</h1><p>Denne turen så går du til en foss</p></a>
+      <a href="friluftsliv4.html" class="to-kolonner åtte-rader"><img src="friluftsliv_4.jpg" alt=""><h1>Nordlystur</h1><p>På denne turen så skal du gå å se Nordlyset</p></a>
+      <a href="friluftsliv5.html" class="to-kolonner åtte-rader"><img src="friluftsliv_5.jpg" alt=""><h1>Innsjøtur</h1><p>På denne turen skal du se en innsjø mellom fjell</p></a>
+      <a href="friluftsliv6.html" class="to-kolonner åtte-rader"><img src="friluftsliv_6.jpg" alt=""><h1>Topptur</h1><p>Denne turen så skal du på topptur med ski</p></a>
+      <a href="friluftsliv7.html" class="to-kolonner åtte-rader"><img src="friluftsliv_7.jpg" alt=""><h1>Skogstur</h1><p>På denne turen så skal du i skogen</p></a>
+      <a href="friluftsliv8.html" class="to-kolonner åtte-rader"><img src="friluftsliv_8.jpg" alt=""><h1>Tur gjennom fjell</h1><p>På denne turen skal du gå på tur mellom fjell</p></a>
+    
+    </section>
+</body>
+</html>
